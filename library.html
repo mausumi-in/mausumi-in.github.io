@@ -1,12 +1,21 @@
 <script src="scrollbar.js"></script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.21/jquery.scrollify.min.js" integrity="sha512-UyX8JsMsNRW1cYl8BoxpcamonpwU2y7mSTsN0Z52plp7oKo1u92Xqfpv6lOlTyH3yiMXK+gU1jw0DVCsPTfKew==" crossorigin="anonymous"></script>
 
 
-<script>
-	$(function() {
-		$.scrollify({
-			section: ".sec-snap",
-		});
-	});
-</script>
+
+
+
+
+<style>
+	.scroll-snap-wrapper {
+		scroll-snap-type: y mandatory;
+	}
+
+	.sc1 {
+		scroll-snap-align: centre;
+	}
+
+	.sc2 {
+		scroll-snap-align: start;
+	}
+</style>
