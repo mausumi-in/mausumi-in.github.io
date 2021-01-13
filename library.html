@@ -6,13 +6,53 @@
 	body {
 		position: relative
 	}
+
+	body:hover .cursor {
+		opacity: 1.0;
+	}
+
+	.cursor {
+		position: fixed;
+		width: 13em;
+		height: 13em;
+		border-radius: 50%;
+		background-color: #f5f5f5;
+		pointer-events: none;
+		mix-blend-mode: difference;
+		z-index: 999;
+
+		transition: transform 0.2s;
+	}
 </style>
+<link href="locomotive-scroll.css" rel="stylesheet" type="text/css" />
+<script src="locomotive-scroll.min.js"></script>
+<script>
+	(function() {
+		var scroll = new LocomotiveScroll();
+	})();
+</script>
+
+
+
+
+
+
 
 
 <script>
+	//scrollbar
+
 	var style = document.createElement("style");
 	style.innerHTML = `body::-webkit-scrollbar {display: none;}`;
 	document.head.appendChild(style);
+</script>
+<script src="cursor.js"></script>
+<script>
+	const scroll = new LocomotiveScroll({
+		el: document.querySelector('[data-scroll-container]'),
+		smooth: true,
+		multiplier: 1
+	});
 </script>
 
 
