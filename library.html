@@ -48,10 +48,32 @@
 </script>
 <script src="cursor.js"></script>
 <script>
+	//smooth scroll
+
 	const scroll = new LocomotiveScroll({
 		el: document.querySelector('[data-scroll-container]'),
 		smooth: true,
 		multiplier: 0.45
+	});
+</script>
+<script>
+	//loader transition
+
+	function internalLink(myLink) {
+		return (myLink.host == window.location.host);
+	}
+	$('a').each(function() {
+		if (internalLink(this) && (this).href.indexOf('#') === -1) {
+			$(this).click(function(e) {
+				e.preventDefault();
+				var moduleURL = jQuery(this).attr("href");
+				setTimeout(function() {
+					window.location = moduleURL
+				}, 1200);
+				// Class that has page out interaction tied to click
+				$('.page-transition').click();
+			});
+		}
 	});
 </script>
 
