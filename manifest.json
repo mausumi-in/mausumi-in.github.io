@@ -10,6 +10,7 @@
 	"description": "Mausumi's collection of some of bengali poems. The poems are inspired by some of her beliefs, various perceptions, and a few words of love. Hope you all like it.",
 	"orientation": "any",
 	"related_applications": [],
+	"categories": ["books", "poem", "bengali"],
 	"prefer_related_applications": false,
 	"icons": [
 		{
