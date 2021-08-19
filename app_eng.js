@@ -1,11 +1,9 @@
-const api_url = 'featured_poems.json';
+const api_url = 'https://mausumi.in/featured_poems.json';
 
 async function getData() {
 	const response = await fetch(api_url);
-	// const response50 = await fetch(news_url); //this is for the live news/updates
 
 	const data = await response.json();
-	// const data50 = await response50.json();
 
     let t = "";
     let d = "";
