@@ -75,7 +75,7 @@ fadeUp4
         opacity: [0, 1],
         /*rotateZ: [10, 0],*/
         easing: "easeOutExpo",
-        duration: 1500,
+        duration: 2000,
         delay: (el, i) => 50 * i + 1000
     });
 
