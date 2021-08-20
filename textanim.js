@@ -18,7 +18,7 @@ var fadeUp = anime.timeline({
 
 fadeUp
     .add({
-        targets: '.fade-up',
+        targets: '.fade-up .tricksword',
         translateY: [100, 0],
         translateZ: 0,
         opacity: [0, 1],
@@ -76,7 +76,7 @@ fadeUp4
         /*rotateZ: [10, 0],*/
         easing: "easeOutExpo",
         duration: 2000,
-        delay: (el, i) => 50 * i + 1000
+        delay: (el, i) => 50 * i + 750
     });
 
 var fadeUp5 = anime.timeline({
