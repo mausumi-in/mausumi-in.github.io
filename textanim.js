@@ -22,9 +22,9 @@ fadeUp
         translateY: [100, 0],
         translateZ: 0,
         opacity: [0, 1],
-        rotateZ: [10, 0],
+        /*rotateZ: [10, 0],*/
         easing: "easeOutExpo",
-        duration: 1000,
+        duration: 800,
         delay: (el, i) => 50 * i
     });
 
