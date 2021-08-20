@@ -75,8 +75,8 @@ fadeUp4
         opacity: [0, 1],
         /*rotateZ: [10, 0],*/
         easing: "easeOutExpo",
-        duration: 1000,
-        delay: (el, i) => 50 * i
+        duration: 1500,
+        delay: (el, i) => 100 * i
     });
 
 var fadeUp5 = anime.timeline({
