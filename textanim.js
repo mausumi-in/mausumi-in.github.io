@@ -70,7 +70,7 @@ var fadeUp4 = anime.timeline({
 fadeUp4
     .add({
         targets: '.fade-up4',
-        translateY: [100, 0],
+        translateY: [200, 0],
         translateZ: 0,
         opacity: [0, 1],
         /*rotateZ: [10, 0],*/
