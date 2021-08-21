@@ -585,8 +585,16 @@ body {
 }
 
 .sec2 {
-  display: block;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   padding-bottom: 7.5vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .sec2.sticky-container {
@@ -628,8 +636,8 @@ body {
 }
 
 .poem-2:hover {
-  padding-right: 0.75vw;
-  padding-left: 0.75vw;
+  padding-right: 0vw;
+  padding-left: 1vw;
 }
 
 .poem-div {
@@ -714,8 +722,8 @@ body {
 }
 
 .poem-1:hover {
-  padding-right: 0.75vw;
-  padding-left: 0.75vw;
+  padding-right: 0vw;
+  padding-left: 1vw;
 }
 
 .index2 {
