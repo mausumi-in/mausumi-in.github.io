@@ -1289,7 +1289,7 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 46px;
+  height: 4.2vh;
   padding: 0px;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
@@ -1907,7 +1907,7 @@ body {
   }
 
   .accordion-toggle {
-    height: 46px;
+    height: 6vh;
   }
 
   .accordion-toggle:hover {
@@ -2251,7 +2251,7 @@ body {
   }
 
   .accordion-toggle {
-    height: 45px;
+    height: 5.5vh;
   }
 
   .all-poems {
