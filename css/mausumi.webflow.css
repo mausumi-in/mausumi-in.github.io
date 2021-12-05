@@ -16,6 +16,7 @@ body {
 
 .body.overflow {
   height: 700vh;
+  background-color: #131313;
 }
 
 .body.library {
@@ -75,6 +76,11 @@ body {
 
 .left-block.mobile {
   display: none;
+}
+
+.left-block.disable-select {
+  background-color: #e6e1db;
+  background-image: none;
 }
 
 .logo-box {
@@ -373,7 +379,7 @@ body {
 
 .heading {
   overflow: hidden;
-  margin-top: -2px;
+  margin-top: -5px;
   margin-bottom: 0px;
   padding-top: 0px;
   padding-bottom: 3px;
@@ -1427,10 +1433,15 @@ body {
 }
 
 .new-transition {
-  position: absolute;
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: auto;
+  bottom: auto;
   z-index: 225;
+  display: none;
   width: 100vw;
-  height: 0vh;
+  height: 100vh;
   background-color: #131313;
 }
 
@@ -1549,7 +1560,7 @@ body {
 .lottie-animation-2 {
   position: relative;
   z-index: 5;
-  width: 50vw;
+  height: 100vh;
 }
 
 .left-block-no-click {
@@ -1665,9 +1676,9 @@ body {
   }
 
   .heading {
-    margin-top: -2px;
+    margin-top: -5px;
     padding-top: 0px;
-    padding-bottom: 3px;
+    padding-bottom: 4px;
     font-size: 5.6vw;
   }
 
@@ -1897,6 +1908,10 @@ body {
 
   .accordion-toggle {
     height: 46px;
+  }
+
+  .accordion-toggle:hover {
+    background-color: transparent;
   }
 
   .grid {
