@@ -425,6 +425,7 @@ body {
 .line.footer {
   position: relative;
   z-index: 250;
+  display: none;
   width: 94vw;
   height: 1.5px;
   margin: 0vh 1vw 5vh;
@@ -1351,7 +1352,7 @@ body {
   display: block;
   width: 100vw;
   margin-top: 0vh;
-  padding: 0vh 0vw 3vh;
+  padding: 0vh 0vw 6.5vh;
   background-color: #131313;
   -webkit-transition: height 200ms ease;
   transition: height 200ms ease;
@@ -1508,6 +1509,7 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  width: 80vw;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
@@ -1518,7 +1520,7 @@ body {
   align-items: flex-end;
 }
 
-.div-block-11 {
+.social-links {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1591,6 +1593,33 @@ body {
 
 .left-block-no-click.mobile {
   display: none;
+}
+
+.signature {
+  position: absolute;
+  bottom: -1vh;
+  width: 22.5vh;
+  margin-left: 3vw;
+  -webkit-transform: rotate(-6deg);
+  -ms-transform: rotate(-6deg);
+  transform: rotate(-6deg);
+}
+
+.madebydruhin {
+  display: none;
+  margin-right: 0vw;
+  padding: 0vh 0vw 0.2vh;
+  text-decoration: none;
+}
+
+.madebydruhin.back-to-about {
+  margin-right: 0vw;
+}
+
+.madebydruhin.footer {
+  margin-right: 0vw;
+  padding-right: 0vw;
+  padding-left: 0vw;
 }
 
 @media screen and (max-width: 991px) {
@@ -1935,7 +1964,7 @@ body {
     width: 100vw;
     margin-top: 0vh;
     padding-right: 0vw;
-    padding-bottom: 2vh;
+    padding-bottom: 6.5vh;
     padding-left: 0vw;
   }
 
@@ -1998,7 +2027,7 @@ body {
   }
 
   .footer-links {
-    width: 92vw;
+    width: 75vw;
     margin-left: -1vw;
   }
 
@@ -2010,6 +2039,15 @@ body {
     display: none;
     width: 100vw;
     height: 100vh;
+  }
+
+  .madebydruhin {
+    margin-right: 1vw;
+    padding: 0vh 0vw;
+  }
+
+  .madebydruhin.back-to-about {
+    margin-right: 0vw;
   }
 }
 
@@ -2052,7 +2090,7 @@ body {
   }
 
   .menu-el.about.footerlinks.copyright {
-    display: none;
+    display: block;
   }
 
   .menu-el.library {
@@ -2146,7 +2184,7 @@ body {
   }
 
   .poem-2:hover {
-    padding-left: 2.5vw;
+    padding-left: 0vw;
   }
 
   .div-block-5 {
@@ -2188,6 +2226,10 @@ body {
   .menu-link {
     margin-right: 1vw;
     padding: 0vh 0vw;
+  }
+
+  .menu-link.footer {
+    margin-top: 0vh;
   }
 
   .menu-link-language.bengali {
@@ -2256,7 +2298,6 @@ body {
 
   .all-poems {
     padding-top: 0vh;
-    padding-bottom: 2vh;
   }
 
   .tablet-division {
@@ -2285,8 +2326,36 @@ body {
   }
 
   .footer-links {
-    width: 94vw;
+    width: 92vw;
+    margin-top: 7vh;
     margin-left: -2vw;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .social-links {
+    display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+
+  .madebydruhin {
+    margin-right: 1vw;
+    padding: 0vh 0vw;
   }
 }
 
