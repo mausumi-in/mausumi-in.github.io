@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Mon Dec 06 2021 16:18:57 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Mon Dec 06 2021 17:25:55 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="61341df94b26226f37b941f0" data-wf-site="61341df94b262258f8b941ef" lang="en">
 <head>
   <meta charset="utf-8">
@@ -61,6 +61,14 @@ body .transition {display: block}
 </style>
 </head>
 <body data-w-id="611740017e15e3badded0ec7" class="body overflow">
+  <div class="cursor-wrapper">
+    <div class="cursor">
+      <div data-w-id="7f4c0558-5859-67d9-1771-a45be335f632" class="point">
+        <div data-w-id="ebe56aab-4b9b-4632-b7c4-74470ce8765e" data-animation-type="lottie" data-src="documents/loading.json" data-loop="1" data-direction="1" data-autoplay="0" data-is-ix2-target="1" data-renderer="svg" data-default-duration="1.7916666666666667" data-duration="0" class="loading-lottie"></div>
+      </div>
+      <div data-w-id="4a0030fc-cba6-e565-2aff-7a333075b9c0" class="circle"></div>
+    </div>
+  </div>
   <nav data-w-id="70e48601-38f9-6fd3-3e90-e6fab2787ade" class="menu-bar">
     <div class="menu-left-elements">
       <a href="#" id="about-link" class="menu-link disable-select w-inline-block">
@@ -123,7 +131,7 @@ body .transition {display: block}
     </div>
   </div>
   <div class="fixed-section wf-section">
-    <section class="left-block disable-select">
+    <section data-w-id="5e4b2e3c-160f-abaf-31da-4a6ef39ccb87" class="left-block disable-select">
       <div class="w-embed">
         <style>
 body {
@@ -132,6 +140,9 @@ body {
 html, body {
   -webkit-font-smoothing: antialiased;
 	}
+.cursor-wrapper{
+		pointer-events:none;
+}
 ::-webkit-scrollbar {
     width: 10px;
 }

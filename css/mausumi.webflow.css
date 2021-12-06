@@ -17,6 +17,10 @@ body {
   line-height: 20px;
 }
 
+a {
+  text-decoration: underline;
+}
+
 .body {
   height: 300vh;
   background-color: #e6e1db;
@@ -1903,6 +1907,86 @@ body {
   align-items: flex-start;
 }
 
+.cursor-wrapper {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 500;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  mix-blend-mode: difference;
+}
+
+.point {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 6px;
+  height: 6px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 50vw;
+  background-color: #e6e1db;
+}
+
+.circle {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #e6e1db;
+  border-radius: 50vw;
+}
+
+.cursor {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.loading-lottie {
+  display: none;
+  width: 36px;
+  height: 36px;
+}
+
 @media screen and (max-width: 991px) {
   .body.overflow {
     height: auto;
@@ -2378,6 +2462,10 @@ body {
   .marquee-text {
     font-size: 2.65vw;
     letter-spacing: -0.15vw;
+  }
+
+  .cursor-wrapper {
+    display: none;
   }
 }
 
