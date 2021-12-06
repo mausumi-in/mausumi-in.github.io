@@ -1114,10 +1114,10 @@ body {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
 }
 
 .library-poem-holder.opekkha {
@@ -1601,10 +1601,7 @@ body {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: url('../images/lines.svg');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: repeat;
+  background-color: #e6e1db;
 }
 
 .left-block-no-click.mobile {
