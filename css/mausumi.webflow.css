@@ -1,3 +1,15 @@
+.w-layout-grid {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-columns: 1fr;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
+}
+
 body {
   font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
   color: #333;
@@ -1237,6 +1249,7 @@ body {
 }
 
 .whole-poem {
+  overflow: hidden;
   padding: 1.5vh 0px 3vh;
   opacity: 0.8;
   font-family: Kalpurush, Arial, sans-serif;
@@ -1419,18 +1432,22 @@ body {
 
 .library5 {
   width: 17vw;
+  margin-top: 7.5vh;
 }
 
 .library6 {
   width: 18.5vw;
+  margin-top: 7.5vh;
 }
 
 .library7 {
   width: 17.5vw;
+  margin-top: 7.5vh;
 }
 
 .library8 {
   width: 18.5vw;
+  margin-top: 7.5vh;
 }
 
 .new-transition {
@@ -1443,7 +1460,6 @@ body {
   display: none;
   width: 100vw;
   height: 100vh;
-  background-color: #131313;
 }
 
 .library-topbar {
@@ -1620,6 +1636,37 @@ body {
   margin-right: 0vw;
   padding-right: 0vw;
   padding-left: 0vw;
+}
+
+.transition1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50vw;
+  height: 100%;
+  background-color: #131313;
+}
+
+.transition2 {
+  width: 50vw;
+  height: 100%;
+  background-color: #131313;
+}
+
+.library-grid {
+  position: relative;
+  z-index: 200;
+  width: 76.75vw;
+  margin-top: 7vh;
+  margin-right: 3vw;
+  margin-left: 3vw;
+  grid-column-gap: 1.75vw;
+  grid-row-gap: 7.5vh;
+  -ms-grid-columns: auto auto auto auto;
+  grid-template-columns: auto auto auto auto;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
 }
 
 @media screen and (max-width: 991px) {
@@ -2049,6 +2096,11 @@ body {
   .madebydruhin.back-to-about {
     margin-right: 0vw;
   }
+
+  .library-grid {
+    -ms-grid-columns: auto auto;
+    grid-template-columns: auto auto;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -2356,6 +2408,14 @@ body {
   .madebydruhin {
     margin-right: 1vw;
     padding: 0vh 0vw;
+  }
+
+  .library-grid {
+    width: 90vw;
+    margin-right: 5vw;
+    margin-left: 5vw;
+    -ms-grid-columns: auto;
+    grid-template-columns: auto;
   }
 }
 
