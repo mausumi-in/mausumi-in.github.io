@@ -1694,6 +1694,10 @@ body {
   margin-top: -2vh;
 }
 
+.lottie-animation-3 {
+  width: 10vw;
+}
+
 @media screen and (max-width: 991px) {
   .body.overflow {
     height: auto;
