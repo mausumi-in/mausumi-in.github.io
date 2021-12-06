@@ -1726,6 +1726,7 @@ body {
 .paper-cut {
   position: relative;
   z-index: 2;
+  width: 50vw;
   margin-top: -2vh;
 }
 
@@ -1736,6 +1737,7 @@ body {
 .paper-cut-2 {
   position: relative;
   z-index: 2;
+  width: 50vw;
   margin-bottom: -2vh;
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
