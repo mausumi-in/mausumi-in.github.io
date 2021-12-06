@@ -1126,7 +1126,7 @@ body {
 
 .line4 {
   width: 100%;
-  height: 1.5px;
+  height: 1px;
   margin-top: 0vh;
   background-color: #e6e1db;
   opacity: 0.5;
@@ -1450,6 +1450,10 @@ body {
   margin-top: 7.5vh;
 }
 
+.library8.hide {
+  display: none;
+}
+
 .new-transition {
   position: fixed;
   left: 0%;
@@ -1459,7 +1463,7 @@ body {
   z-index: 225;
   display: none;
   width: 100vw;
-  height: 100vh;
+  height: 120vh;
 }
 
 .library-topbar {
@@ -1641,8 +1645,18 @@ body {
   display: -ms-flexbox;
   display: flex;
   width: 50vw;
-  height: 100%;
-  background-color: #131313;
+  height: 120vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-right: 1px solid #e6e1db;
+  background-color: transparent;
 }
 
 .transition2 {
@@ -1664,6 +1678,20 @@ body {
   grid-template-columns: auto auto auto auto;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
+}
+
+.black-block {
+  position: relative;
+  z-index: 3;
+  width: 100%;
+  height: 100vh;
+  background-color: #131313;
+}
+
+.paper-cut {
+  position: relative;
+  z-index: 2;
+  margin-top: -2vh;
 }
 
 @media screen and (max-width: 991px) {
@@ -1833,7 +1861,7 @@ body {
   }
 
   .poem-2:hover {
-    padding-left: 2vw;
+    padding-left: 0vw;
   }
 
   .div-block-5 {
@@ -1874,7 +1902,7 @@ body {
   }
 
   .poem-1:hover {
-    padding-left: 2vw;
+    padding-left: 0vw;
   }
 
   .menu-link {
@@ -2054,6 +2082,10 @@ body {
 
   .library8 {
     width: 100%;
+  }
+
+  .library8.hide {
+    display: block;
   }
 
   .new-transition {
