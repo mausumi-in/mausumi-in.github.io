@@ -414,7 +414,7 @@ body {
 }
 
 .line {
-  width: 100%;
+  width: 42vw;
   height: 2px;
   margin-top: 7.4vh;
   background-color: #131313;
@@ -445,6 +445,15 @@ body {
   padding-left: 0vw;
   background-color: #e6e1db;
   opacity: 0.8;
+}
+
+.line.white {
+  position: relative;
+  width: 90%;
+  height: 1px;
+  margin-top: -4%;
+  margin-left: 5%;
+  background-color: #e6e1db;
 }
 
 .video-area {
@@ -1365,7 +1374,9 @@ body {
   display: block;
   width: 100vw;
   margin-top: 0vh;
-  padding: 0vh 0vw 6.5vh;
+  padding-top: 0vh;
+  padding-right: 0vw;
+  padding-left: 0vw;
   background-color: #131313;
   -webkit-transition: height 200ms ease;
   transition: height 200ms ease;
@@ -1502,6 +1513,7 @@ body {
 
 .smooth-scroll-wrapper {
   margin-top: 515vh;
+  padding-bottom: 8vh;
 }
 
 .footer {
@@ -1660,9 +1672,22 @@ body {
 }
 
 .transition2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   width: 50vw;
-  height: 100%;
-  background-color: #131313;
+  height: 120vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
 }
 
 .library-grid {
@@ -1696,6 +1721,29 @@ body {
 
 .lottie-animation-3 {
   width: 10vw;
+}
+
+.paper-cut-2 {
+  position: relative;
+  z-index: 2;
+  margin-bottom: -2vh;
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.paper-end {
+  position: relative;
+  top: 8vh;
+  height: 15vh;
+  background-color: transparent;
+  background-image: url('../images/paper-cut-2.svg');
+  background-position: 50% 100%;
+  background-size: 480px;
+  background-repeat: repeat-x;
+  -webkit-transform: rotate(-5deg) scale(1.15);
+  -ms-transform: rotate(-5deg) scale(1.15);
+  transform: rotate(-5deg) scale(1.15);
 }
 
 @media screen and (max-width: 991px) {
