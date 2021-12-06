@@ -2059,6 +2059,15 @@ body {
     width: 100%;
   }
 
+  .new-transition {
+    display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+
   .library-topbar {
     padding-right: 4vw;
     padding-left: 5vw;
@@ -2095,6 +2104,15 @@ body {
 
   .madebydruhin.back-to-about {
     margin-right: 0vw;
+  }
+
+  .transition1 {
+    display: none;
+    width: 100%;
+  }
+
+  .transition2 {
+    width: 100%;
   }
 
   .library-grid {
@@ -2408,6 +2426,10 @@ body {
   .madebydruhin {
     margin-right: 1vw;
     padding: 0vh 0vw;
+  }
+
+  .transition1 {
+    display: none;
   }
 
   .library-grid {
