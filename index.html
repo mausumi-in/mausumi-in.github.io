@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Tue Dec 07 2021 06:11:54 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Tue Dec 07 2021 18:25:01 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="61341df94b26226f37b941f0" data-wf-site="61341df94b262258f8b941ef" lang="en">
 <head>
   <meta charset="utf-8">
@@ -124,15 +124,51 @@ body .transition {display: block}
             <div class="marquee-text">আপনাকে এই জানা আমার ফুরাবে না</div>
           </div>
         </div>
-      </div><img src="images/paper-cut.svg" loading="lazy" alt="" class="paper-cut">
+      </div>
+      <div class="paper-cut-full-2">
+        <div class="marquee-horizontal-css w-embed">
+          <style>
+.track-horizontal2 {
+  position: absolute;
+  white-space: nowrap;
+  will-change: transform;
+  animation: marquee-horizontal2 5s linear infinite;
+  /* manipulate the speed of the marquee by changing "40s" line above*/
+}
+@keyframes marquee-horizontal2 {
+  from { transform: translateX(0); }
+  to { transform: translateX(-100vw); }
+}
+</style>
+        </div>
+        <div class="track-horizontal2"><img src="images/paper-cut-full.svg" loading="lazy" alt="" class="paper-cut-2"><img src="images/paper-cut-full.svg" loading="lazy" alt="" class="paper-cut-3"><img src="images/paper-cut-full.svg" loading="lazy" alt="" class="paper-cut-2"><img src="images/paper-cut-full.svg" loading="lazy" alt="" class="paper-cut-3"></div>
+      </div><img src="images/paper-cut.svg" loading="lazy" alt="" class="paper-cut hide">
     </div>
-    <div data-w-id="597dde59-bda5-a8a7-d5b1-6250eea87712" class="transition2"><img src="images/paper-cut.svg" loading="lazy" alt="" class="paper-cut-2">
+    <div data-w-id="597dde59-bda5-a8a7-d5b1-6250eea87712" class="transition2">
+      <div class="paper-cut-full">
+        <div class="marquee-horizontal-css w-embed">
+          <style>
+.track-horizontal2 {
+  position: absolute;
+  white-space: nowrap;
+  will-change: transform;
+  animation: marquee-horizontal2 5s linear infinite;
+  /* manipulate the speed of the marquee by changing "40s" line above*/
+}
+@keyframes marquee-horizontal2 {
+  from { transform: translateX(0); }
+  to { transform: translateX(-100vw); }
+}
+</style>
+        </div>
+        <div class="track-horizontal2"><img src="images/paper-cut-full.svg" loading="lazy" alt="" class="paper-cut-2"><img src="images/paper-cut-full.svg" loading="lazy" alt="" class="paper-cut-3"><img src="images/paper-cut-full.svg" loading="lazy" alt="" class="paper-cut-2"><img src="images/paper-cut-full.svg" loading="lazy" alt="" class="paper-cut-3"></div>
+      </div><img src="images/paper-cut.svg" loading="lazy" alt="" class="paper-cut-2 hide">
       <div class="black-block"></div>
     </div>
   </div>
   <div class="fixed-section wf-section">
     <section data-w-id="5e4b2e3c-160f-abaf-31da-4a6ef39ccb87" class="left-block disable-select">
-      <div class="w-embed">
+      <div class="document-styling w-embed">
         <style>
 body {
   /*overflow-x: hidden; /* Hide horizontal scrollbar */
@@ -155,12 +191,12 @@ html, body {
 }
 /*	changing the selection color*/
 ::-moz-selection {
-		color: #131313;
-		background: #ffffff;
+		color: #E6E1DB;
+		background: #1b1b1b;
 }
 ::selection {
-		color: #131313;
-		background: #ffffff;
+		color: #E6E1DB;
+		background: #1b1b1b;
 }
 /*	changing the selection color for the Mausumi button*/
 img::-moz-selection {
