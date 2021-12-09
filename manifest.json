@@ -1,65 +1,39 @@
 {
-"dir": "ltr",
-"lang": "bn",
-"name": "Mausumi - Showcase of Writings",
-"short_name": "Mausumi",
-"scope": "/",
-"display": "fullscreen",
-"start_url": "https://mausumi.in",
-"background_color": "#131313",
-"theme_color": "#131313",
-"description": "Mausumi aims to take you on an emotional journey as she shares her experiences, perceptions, and love.",
-"orientation": "portrait",
-"related_applications": [],
-"categories": [
-"writing",
-"poems",
-"bengali",
-"books"
-],
-"prefer_related_applications": false,
-"icons": [
-{
-"src": "https://uploads-ssl.webflow.com/60c771a5f20c346840862b2b/60da24b8d75a73f2a3f4bfef_icon32.png",
-"type": "image/png",
-"sizes": "32x32"
-},
-{
-"src": "https://uploads-ssl.webflow.com/61341df94b262258f8b941ef/61341df94b2622b03eb9420c_webclip.png",
-"type": "image/png",
-"sizes": "256x256"
-},
-{
-"src": "https://uploads-ssl.webflow.com/60c771a5f20c346840862b2b/60da246c1b226a4f440d5ced_maskable_icon.png",
-"sizes": "512x512",
-"type": "image/png",
-"purpose": "any maskable"
-}
-],
-"shortcuts": [
-{
-"name": "Selected Works",
-"short_name": "Works",
-"description": "Check the Case studies of some of Druhin's selected works.",
-"url": "https://druh.in/work",
-"icons": [
-{
-"src": "https://uploads-ssl.webflow.com/60c771a5f20c346840862b2b/60da232041c66c44d08767b8_works.png",
-"sizes": "192x192"
-}
-]
-},
-{
-"name": "Contact",
-"short_name": "Contact",
-"description": "Feel free to reach out to me via email if you have a project in mind, or maybe just say 'hi'. I don't mind making new friends.",
-"url": "https://druh.in/contact",
-"icons": [
-{
-"src": "https://uploads-ssl.webflow.com/60c771a5f20c346840862b2b/60da2320e0c72d8cc71ed842_contact.png",
-"sizes": "192x192"
-}
-]
-}
-]
+  "dir": "ltr",
+  "lang": "bn",
+  "name": "Mausumi - Showcase of Writings",
+  "short_name": "Mausumi",
+  "scope": "/",
+  "display": "fullscreen",
+  "start_url": "https://mausumi.in",
+  "background_color": "#131313",
+  "theme_color": "#131313",
+  "description": "Mausumi aims to take you on an emotional journey as she shares her experiences, perceptions, and love.",
+  "orientation": "portrait",
+  "related_applications": [],
+  "categories": [
+    "writing",
+    "poems",
+    "bengali",
+    "books"
+  ],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "https://uploads-ssl.webflow.com/60c771a5f20c346840862b2b/60da24b8d75a73f2a3f4bfef_icon32.png",
+      "type": "image/png",
+      "sizes": "32x32"
+    },
+    {
+      "src": "https://uploads-ssl.webflow.com/61341df94b262258f8b941ef/61341df94b2622b03eb9420c_webclip.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "https://uploads-ssl.webflow.com/60c771a5f20c346840862b2b/60da246c1b226a4f440d5ced_maskable_icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
 }
