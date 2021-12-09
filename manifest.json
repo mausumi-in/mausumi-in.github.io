@@ -1,21 +1,21 @@
 {
 "dir": "ltr",
-"lang": "en",
-"name": "Portfolio '21",
-"short_name": "Druhin",
+"lang": "bn",
+"name": "Mausumi - Showcase of Writings",
+"short_name": "Mausumi",
 "scope": "/",
 "display": "fullscreen",
-"start_url": "https://druh.in",
-"background_color": "#ededed",
+"start_url": "https://mausumi.in",
+"background_color": "#131313",
 "theme_color": "#131313",
-"description": "UX Designer specializing in Visual Design making interfaces more human, effective, and easy to use.",
+"description": "Mausumi aims to take you on an emotional journey as she shares her experiences, perceptions, and love.",
 "orientation": "portrait",
 "related_applications": [],
 "categories": [
-"design",
-"coding",
-"ux",
-"portfolio"
+"writing",
+"poems",
+"bengali",
+"books"
 ],
 "prefer_related_applications": false,
 "icons": [
@@ -25,7 +25,7 @@
 "sizes": "32x32"
 },
 {
-"src": "https://uploads-ssl.webflow.com/60c771a5f20c346840862b2b/60d21f821c161c55718db6df_icon256.png",
+"src": "https://uploads-ssl.webflow.com/61341df94b262258f8b941ef/61341df94b2622b03eb9420c_webclip.png",
 "type": "image/png",
 "sizes": "256x256"
 },
