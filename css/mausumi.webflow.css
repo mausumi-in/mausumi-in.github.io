@@ -1331,12 +1331,12 @@ a {
   -webkit-align-content: center;
   -ms-flex-line-pack: center;
   align-content: center;
-  -webkit-transition: background-color 300ms ease;
-  transition: background-color 300ms ease;
+  -webkit-transition: padding 300ms ease, background-color 300ms ease;
+  transition: padding 300ms ease, background-color 300ms ease;
 }
 
 .accordion-toggle:hover {
-  background-color: hsla(0, 0%, 100%, 0.05);
+  padding-left: 1vw;
 }
 
 .text-block {
@@ -2447,6 +2447,7 @@ a {
   }
 
   .accordion-toggle:hover {
+    padding-left: 0vw;
     background-color: transparent;
   }
 
@@ -2692,6 +2693,7 @@ a {
 
   .heading.mobile {
     display: block;
+    padding-bottom: 3px;
   }
 
   .heading.mobile.fade-up2.tricks {
@@ -2707,7 +2709,7 @@ a {
   }
 
   .line {
-    margin-top: 5vh;
+    margin-top: 6vh;
   }
 
   .line.library {
