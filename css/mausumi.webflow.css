@@ -879,14 +879,26 @@ a {
 }
 
 .awwwards {
-  position: absolute;
+  position: fixed;
   left: 0%;
   top: 0%;
   right: auto;
-  bottom: auto;
-  display: none;
-  width: 0px;
-  height: 0px;
+  bottom: 0%;
+  z-index: 500;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .noise-filter {
@@ -2124,6 +2136,53 @@ a {
   transform: rotate(180deg);
 }
 
+.awwwards-code {
+  display: none;
+}
+
+.awwwards-left {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: auto;
+  bottom: 0%;
+  z-index: 500;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.awwwards-right {
+  position: fixed;
+  left: auto;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 500;
+  display: none;
+  height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
 @media screen and (max-width: 991px) {
   .body.overflow {
     height: auto;
@@ -2622,6 +2681,14 @@ a {
     margin-top: -0.1vh;
     margin-bottom: 0%;
   }
+
+  .awwwards-left {
+    display: none;
+  }
+
+  .awwwards-right {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -3037,6 +3104,14 @@ a {
 
   .paper-cut-full-2 {
     margin-top: -0.1vh;
+  }
+
+  .awwwards-left {
+    display: none;
+  }
+
+  .awwwards-right {
+    display: none;
   }
 }
 
