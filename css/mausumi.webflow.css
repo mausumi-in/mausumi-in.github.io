@@ -2180,6 +2180,32 @@ a {
   justify-content: center;
 }
 
+.image-slideshow {
+  position: fixed;
+  left: auto;
+  top: auto;
+  right: 3vw;
+  bottom: 6vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 10vw;
+  height: auto;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.img-slide {
+  width: 100%;
+}
+
 @media screen and (max-width: 991px) {
   .body.overflow {
     height: auto;
@@ -2356,7 +2382,7 @@ a {
   }
 
   .div-block-5 {
-    width: 35vw;
+    width: 40vw;
   }
 
   .poem-title {
@@ -2686,6 +2712,10 @@ a {
   .awwwards-right {
     display: none;
   }
+
+  .image-slideshow {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -2837,7 +2867,7 @@ a {
   }
 
   .div-block-5 {
-    width: 70vw;
+    width: 72.5vw;
   }
 
   .poem-title {
