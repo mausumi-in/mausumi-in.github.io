@@ -2206,6 +2206,14 @@ a {
   width: 100%;
 }
 
+.link-block {
+  display: none;
+}
+
+.link-block-2 {
+  display: none;
+}
+
 @media screen and (max-width: 991px) {
   .body.overflow {
     height: auto;
