@@ -2206,12 +2206,13 @@ a {
   width: 100%;
 }
 
-.link-block {
-  display: none;
+.cssda {
+  width: 3.5vw;
+  margin-top: 1vh;
 }
 
-.link-block-2 {
-  display: none;
+.aww {
+  width: 3.5vw;
 }
 
 @media screen and (max-width: 991px) {
@@ -2724,6 +2725,14 @@ a {
   .image-slideshow {
     display: none;
   }
+
+  .cssda {
+    width: 7vw;
+  }
+
+  .aww {
+    width: 7vw;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -3147,6 +3156,14 @@ a {
 
   .awwwards-right {
     display: none;
+  }
+
+  .cssda {
+    width: 12vw;
+  }
+
+  .aww {
+    width: 12vw;
   }
 }
 
